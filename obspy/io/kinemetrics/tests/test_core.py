@@ -294,7 +294,6 @@ class CoreTestCase(unittest.TestCase):
         self.verify_data_evt0_raw(st[0].data)
         self.verify_data_evt2_raw(st[2].data)
 
-
     def verify_stats_evt(self, evt_stats):
         dico = {'chan_fullscale': 2.5, 'chan_sensorgain': 1,
                 'chan_calcoil': 0.0500, 'chan_damping': 0.7070,
